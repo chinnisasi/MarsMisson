@@ -61,11 +61,16 @@
 {
     RoverCellCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"roverCell" forIndexPath:indexPath];
       cell.imgView.hidden = YES;
-    if([indexPath compare:self.currentIndexPath] == NSOrderedSame) {
+    if(indexPath.section == [self.rover currentLocation].x && indexPath.row == [self.rover currentLocation].y) {
         cell.imgView.hidden = NO;
     }
     if([self isIndexPathObstacle:indexPath]) {
         cell.layer.backgroundColor = [UIColor blackColor].CGColor;
+    } else {
+         cell.layer.backgroundColor = [UIColor whiteColor].CGColor;
+    }
+    if([self isIndexPathHighLighted:indexPath]) {
+         cell.layer.backgroundColor = [UIColor blueColor].CGColor;
     }
     return cell;
 }
@@ -93,6 +98,18 @@
         NSIndexPath* indexPath = [NSIndexPath indexPathForItem:j inSection:i];
         [self.obstaclesArr addObject:indexPath];
     }
+}
+
+- (BOOL)isIndexPathHighLighted:(NSIndexPath*)currentIndexPath
+{
+    BOOL isHighlighted = NO;
+    for (NSIndexPath* indexPath in self.highlightedPathArr) {
+        if([currentIndexPath compare:indexPath] == NSOrderedSame) {
+            isHighlighted = YES;
+            break;
+        }
+    }
+    return isHighlighted;
 }
 
 - (BOOL)isIndexPathObstacle:(NSIndexPath*)currentIndexPath
@@ -169,7 +186,7 @@
             self.highlightedPathArr = [[self.rover currentPointsArr] mutableCopy];
             [self.highlightedPathArr insertObject:self.currentIndexPath atIndex:0];
             [self highlightPath:[self.highlightedPathArr mutableCopy]];
-             self.currentIndexPath  = [NSIndexPath indexPathForItem:[self.rover currentLocation].x inSection:[self.rover currentLocation].y];
+             self.currentIndexPath  = [NSIndexPath indexPathForItem:[self.rover currentLocation].y inSection:[self.rover currentLocation].x];
         } else {
              self.highlightedPathArr = [[self.rover currentPointsArr] copy];
             [self alertNoPath:self.highlightedPathArr];
