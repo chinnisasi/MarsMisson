@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  MarsMission
+//  MarsRoverMission
 //
-//  Created by Sasidhar Koti on 02/08/16.
+//  Created by Sasidhar Koti on 26/07/16.
 //  Copyright © 2016 Sasidhar Koti. All rights reserved.
 //
 
@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 
-
+- (void)reloadData;
 @end
 

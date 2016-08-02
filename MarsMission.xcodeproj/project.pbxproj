@@ -9,11 +9,23 @@
 /* Begin PBXBuildFile section */
 		6B9AE2DE1D508789001FA09B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE2DD1D508789001FA09B /* main.m */; };
 		6B9AE2E11D508789001FA09B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE2E01D508789001FA09B /* AppDelegate.m */; };
-		6B9AE2E41D508789001FA09B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE2E31D508789001FA09B /* ViewController.m */; };
 		6B9AE2E71D508789001FA09B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B9AE2E51D508789001FA09B /* Main.storyboard */; };
 		6B9AE2E91D508789001FA09B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9AE2E81D508789001FA09B /* Assets.xcassets */; };
 		6B9AE2EC1D508789001FA09B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B9AE2EA1D508789001FA09B /* LaunchScreen.storyboard */; };
 		6B9AE2F71D508789001FA09B /* MarsMissionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE2F61D508789001FA09B /* MarsMissionTests.m */; };
+		6B9AE3031D5087AB001FA09B /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE3021D5087AB001FA09B /* AppSettings.m */; };
+		6B9AE3061D5087BA001FA09B /* CustomCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE3051D5087BA001FA09B /* CustomCollectionViewLayout.m */; };
+		6B9AE3091D5087C8001FA09B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE3081D5087C8001FA09B /* MainViewController.m */; };
+		6B9AE30C1D5087D3001FA09B /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B9AE30A1D5087D3001FA09B /* reveal-icon.png */; };
+		6B9AE30D1D5087D3001FA09B /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B9AE30B1D5087D3001FA09B /* reveal-icon@2x.png */; };
+		6B9AE3101D5087DC001FA09B /* rover_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B9AE30E1D5087DC001FA09B /* rover_normal.png */; };
+		6B9AE3111D5087DC001FA09B /* rover_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B9AE30F1D5087DC001FA09B /* rover_top.png */; };
+		6B9AE3181D5087E6001FA09B /* Rover.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE3131D5087E6001FA09B /* Rover.m */; };
+		6B9AE3191D5087E6001FA09B /* RoverCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE3151D5087E6001FA09B /* RoverCellCollectionViewCell.m */; };
+		6B9AE31A1D5087E6001FA09B /* RPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE3171D5087E6001FA09B /* RPoint.m */; };
+		6B9AE3231D5087F1001FA09B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE31D1D5087F1001FA09B /* SWRevealViewController.m */; };
+		6B9AE3241D5087F1001FA09B /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE3201D5087F1001FA09B /* UIView+Toast.m */; };
+		6B9AE3251D5087F1001FA09B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AE3221D5087F1001FA09B /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +43,6 @@
 		6B9AE2DD1D508789001FA09B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B9AE2DF1D508789001FA09B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6B9AE2E01D508789001FA09B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6B9AE2E21D508789001FA09B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6B9AE2E31D508789001FA09B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6B9AE2E61D508789001FA09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B9AE2E81D508789001FA09B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B9AE2EB1D508789001FA09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +50,28 @@
 		6B9AE2F21D508789001FA09B /* MarsMissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsMissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9AE2F61D508789001FA09B /* MarsMissionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsMissionTests.m; sourceTree = "<group>"; };
 		6B9AE2F81D508789001FA09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B9AE3011D5087A5001FA09B /* AppSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppSettings.h; sourceTree = "<group>"; };
+		6B9AE3021D5087AB001FA09B /* AppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettings.m; sourceTree = "<group>"; };
+		6B9AE3041D5087B4001FA09B /* CustomCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewLayout.h; sourceTree = "<group>"; };
+		6B9AE3051D5087BA001FA09B /* CustomCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewLayout.m; sourceTree = "<group>"; };
+		6B9AE3071D5087C2001FA09B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6B9AE3081D5087C8001FA09B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6B9AE30A1D5087D3001FA09B /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
+		6B9AE30B1D5087D3001FA09B /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon@2x.png"; sourceTree = "<group>"; };
+		6B9AE30E1D5087DC001FA09B /* rover_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rover_normal.png; sourceTree = "<group>"; };
+		6B9AE30F1D5087DC001FA09B /* rover_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rover_top.png; sourceTree = "<group>"; };
+		6B9AE3121D5087E6001FA09B /* Rover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rover.h; sourceTree = "<group>"; };
+		6B9AE3131D5087E6001FA09B /* Rover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rover.m; sourceTree = "<group>"; };
+		6B9AE3141D5087E6001FA09B /* RoverCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoverCellCollectionViewCell.h; sourceTree = "<group>"; };
+		6B9AE3151D5087E6001FA09B /* RoverCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoverCellCollectionViewCell.m; sourceTree = "<group>"; };
+		6B9AE3161D5087E6001FA09B /* RPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPoint.h; sourceTree = "<group>"; };
+		6B9AE3171D5087E6001FA09B /* RPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPoint.m; sourceTree = "<group>"; };
+		6B9AE31C1D5087F1001FA09B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		6B9AE31D1D5087F1001FA09B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		6B9AE31F1D5087F1001FA09B /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		6B9AE3201D5087F1001FA09B /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		6B9AE3211D5087F1001FA09B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B9AE3221D5087F1001FA09B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +92,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B5C486D1D50CE06004F3935 /* CustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6B9AE3151D5087E6001FA09B /* RoverCellCollectionViewCell.m */,
+				6B9AE3141D5087E6001FA09B /* RoverCellCollectionViewCell.h */,
+				6B9AE3041D5087B4001FA09B /* CustomCollectionViewLayout.h */,
+				6B9AE3051D5087BA001FA09B /* CustomCollectionViewLayout.m */,
+			);
+			name = CustomLayout;
+			sourceTree = "<group>";
+		};
+		6B5C486E1D50CE25004F3935 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B9AE3161D5087E6001FA09B /* RPoint.h */,
+				6B9AE3171D5087E6001FA09B /* RPoint.m */,
+				6B9AE3131D5087E6001FA09B /* Rover.m */,
+				6B9AE3121D5087E6001FA09B /* Rover.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6B5C486F1D50CE3B004F3935 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B9AE3081D5087C8001FA09B /* MainViewController.m */,
+				6B9AE3071D5087C2001FA09B /* MainViewController.h */,
+				6B9AE3221D5087F1001FA09B /* ViewController.m */,
+				6B9AE3211D5087F1001FA09B /* ViewController.h */,
+			);
+			name = viewControllers;
+			sourceTree = "<group>";
+		};
+		6B5C48701D50CE55004F3935 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6B9AE3021D5087AB001FA09B /* AppSettings.m */,
+				6B9AE3011D5087A5001FA09B /* AppSettings.h */,
+				6B9AE31E1D5087F1001FA09B /* Toast */,
+				6B9AE31B1D5087F1001FA09B /* SWRevealViewController */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		6B5C48711D50CE73004F3935 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6B9AE30F1D5087DC001FA09B /* rover_top.png */,
+				6B9AE30E1D5087DC001FA09B /* rover_normal.png */,
+				6B9AE30B1D5087D3001FA09B /* reveal-icon@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		6B9AE2D01D508789001FA09B = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +167,14 @@
 		6B9AE2DB1D508789001FA09B /* MarsMission */ = {
 			isa = PBXGroup;
 			children = (
+				6B5C48711D50CE73004F3935 /* Assets */,
+				6B5C48701D50CE55004F3935 /* utilities */,
+				6B5C486F1D50CE3B004F3935 /* viewControllers */,
+				6B5C486E1D50CE25004F3935 /* Model */,
+				6B5C486D1D50CE06004F3935 /* CustomLayout */,
 				6B9AE2DF1D508789001FA09B /* AppDelegate.h */,
 				6B9AE2E01D508789001FA09B /* AppDelegate.m */,
-				6B9AE2E21D508789001FA09B /* ViewController.h */,
-				6B9AE2E31D508789001FA09B /* ViewController.m */,
+				6B9AE30A1D5087D3001FA09B /* reveal-icon.png */,
 				6B9AE2E51D508789001FA09B /* Main.storyboard */,
 				6B9AE2E81D508789001FA09B /* Assets.xcassets */,
 				6B9AE2EA1D508789001FA09B /* LaunchScreen.storyboard */,
@@ -109,6 +199,24 @@
 				6B9AE2F81D508789001FA09B /* Info.plist */,
 			);
 			path = MarsMissionTests;
+			sourceTree = "<group>";
+		};
+		6B9AE31B1D5087F1001FA09B /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6B9AE31C1D5087F1001FA09B /* SWRevealViewController.h */,
+				6B9AE31D1D5087F1001FA09B /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		6B9AE31E1D5087F1001FA09B /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				6B9AE31F1D5087F1001FA09B /* UIView+Toast.h */,
+				6B9AE3201D5087F1001FA09B /* UIView+Toast.m */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +300,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B9AE2EC1D508789001FA09B /* LaunchScreen.storyboard in Resources */,
+				6B9AE30D1D5087D3001FA09B /* reveal-icon@2x.png in Resources */,
 				6B9AE2E91D508789001FA09B /* Assets.xcassets in Resources */,
+				6B9AE3101D5087DC001FA09B /* rover_normal.png in Resources */,
 				6B9AE2E71D508789001FA09B /* Main.storyboard in Resources */,
+				6B9AE3111D5087DC001FA09B /* rover_top.png in Resources */,
+				6B9AE30C1D5087D3001FA09B /* reveal-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +323,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B9AE2E41D508789001FA09B /* ViewController.m in Sources */,
+				6B9AE3181D5087E6001FA09B /* Rover.m in Sources */,
 				6B9AE2E11D508789001FA09B /* AppDelegate.m in Sources */,
+				6B9AE3191D5087E6001FA09B /* RoverCellCollectionViewCell.m in Sources */,
 				6B9AE2DE1D508789001FA09B /* main.m in Sources */,
+				6B9AE3031D5087AB001FA09B /* AppSettings.m in Sources */,
+				6B9AE3251D5087F1001FA09B /* ViewController.m in Sources */,
+				6B9AE3231D5087F1001FA09B /* SWRevealViewController.m in Sources */,
+				6B9AE3091D5087C8001FA09B /* MainViewController.m in Sources */,
+				6B9AE3061D5087BA001FA09B /* CustomCollectionViewLayout.m in Sources */,
+				6B9AE3241D5087F1001FA09B /* UIView+Toast.m in Sources */,
+				6B9AE31A1D5087E6001FA09B /* RPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +522,7 @@
 				6B9AE2FD1D508789001FA09B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B9AE2FE1D508789001FA09B /* Build configuration list for PBXNativeTarget "MarsMissionTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +531,7 @@
 				6B9AE3001D508789001FA09B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
