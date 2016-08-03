@@ -103,10 +103,12 @@
 - (BOOL)isIndexPathHighLighted:(NSIndexPath*)currentIndexPath
 {
     BOOL isHighlighted = NO;
-    for (NSIndexPath* indexPath in self.highlightedPathArr) {
-        if([currentIndexPath compare:indexPath] == NSOrderedSame) {
-            isHighlighted = YES;
-            break;
+    if(isSafePath) {
+        for (NSIndexPath* indexPath in self.highlightedPathArr) {
+            if([currentIndexPath compare:indexPath] == NSOrderedSame) {
+                isHighlighted = YES;
+                break;
+            }
         }
     }
     return isHighlighted;
